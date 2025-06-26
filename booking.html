@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز جلسة تدريبية - Pump Swimming Academy | أكاديمية بامب للسباحة</title>
+    <meta name="description" content="احجز جلستك التدريبية الآن مع أكاديمية بامب للسباحة. اختر البرنامج المناسب لك وموعد التدريب المفضل وابدأ رحلتك مع السباحة.">
+    <meta name="keywords" content="حجز تدريب سباحة, pump swimming academy booking, أكاديمية بامب للسباحة حجز, تسجيل جلسة سباحة">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qupdtevw.manus.space/booking.html">
+    <meta property="og:title" content="حجز جلسة تدريبية - Pump Swimming Academy | أكاديمية بامب للسباحة">
+    <meta property="og:description" content="احجز جلستك التدريبية الآن مع أكاديمية بامب للسباحة. اختر البرنامج المناسب لك وموعد التدريب المفضل وابدأ رحلتك مع السباحة.">
+    <meta property="og:image" content="https://qupdtevw.manus.space/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://qupdtevw.manus.space/booking.html">
+    <meta property="twitter:title" content="حجز جلسة تدريبية - Pump Swimming Academy | أكاديمية بامب للسباحة">
+    <meta property="twitter:description" content="احجز جلستك التدريبية الآن مع أكاديمية بامب للسباحة. اختر البرنامج المناسب لك وموعد التدريب المفضل وابدأ رحلتك مع السباحة.">
+    <meta property="twitter:image" content="https://qupdtevw.manus.space/logo.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .booking-section {
+            padding: 60px 0;
+            background-color: #f9f9f9;
+        }
+        .booking-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .booking-info {
+            flex: 1;
+            min-width: 300px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .booking-form {
+            flex: 2;
+            min-width: 300px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .booking-info h2, .booking-form h2 {
+            color: #003366;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .booking-steps {
+            margin-top: 20px;
+        }
+        .booking-step {
+            display: flex;
+            margin-bottom: 20px;
+            align-items: flex-start;
+        }
+        .step-number {
+            width: 30px;
+            height: 30px;
+            background-color: #0099cc;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 15px;
+            flex-shrink: 0;
+        }
+        .step-content {
+            flex: 1;
+        }
+        .step-content h3 {
+            margin-bottom: 5px;
+            font-size: 18px;
+            color: #003366;
+        }
+        .step-content p {
+            color: #666;
+            line-height: 1.5;
+        }
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            flex: 1;
+            min-width: 250px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #003366;
+        }
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+        }
+        .form-group select {
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23003366' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: left 15px center;
+            background-size: 15px;
+            padding-left: 40px;
+        }
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        .form-actions {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .btn-submit {
+            background-color: #0099cc;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            flex: 1;
+        }
+        .btn-submit:hover {
+            background-color: #007aa3;
+        }
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex: 1;
+        }
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+        }
+        .booking-benefits {
+            margin-top: 30px;
+        }
+        .benefit-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .benefit-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #e6f7ff;
+            color: #0099cc;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 15px;
+            flex-shrink: 0;
+        }
+        .benefit-text {
+            flex: 1;
+        }
+        .benefit-text h4 {
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: #003366;
+        }
+        .benefit-text p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .booking-note {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #fff8e1;
+            border-right: 4px solid #ffc107;
+            border-radius: 5px;
+        }
+        .booking-note p {
+            margin: 0;
+            color: #856404;
+        }
+        .success-message {
+            display: none;
+            background-color: #d4edda;
+            color: #155724;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .success-message h3 {
+            margin-bottom: 10px;
+        }
+        .success-message p {
+            margin-bottom: 15px;
+        }
+        .success-message .btn {
+            display: inline-block;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .booking-container {
+                flex-direction: column;
+            }
+            .form-row {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .form-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>Welcome to PUMP Swimming Academy - The Elite of Elite in Swimming</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/people/PUMP-Swimming-Academy/61550332079679/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/201553416110" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/pump_swim_academy" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Pump Swimming Academy Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="programs.html">برامج السباحة</a></li>
+                    <li><a href="trainers.html">المدربين</a></li>
+                    <li><a href="locations.html">المواقع</a></li>
+                    <li><a href="prices.html">الأسعار</a></li>
+                    <li><a href="gallery.html">معرض الصور</a></li>
+                    <li><a href="posts.html">المنشورات</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+                <div class="register-btn">
+                    <a href="booking.html" class="btn active">سجل الآن</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>حجز جلسة تدريبية</h1>
+            <p>ابدأ رحلتك مع السباحة الآن واحجز جلستك التدريبية الأولى</p>
+        </div>
+    </section>
+
+    <section class="booking-section">
+        <div class="container">
+            <div id="successMessage" class="success-message">
+                <h3><i class="fas fa-check-circle"></i> تم إرسال طلب الحجز بنجاح!</h3>
+                <p>شكراً لك على التسجيل في أكاديمية بامب للسباحة. سيتم التواصل معك قريباً لتأكيد الحجز وتحديد التفاصيل النهائية.</p>
+                <a href="index.html" class="btn">العودة للصفحة الرئيسية</a>
+            </div>
+            
+            <div class="booking-container">
+                <div class="booking-info">
+                    <h2>كيفية الحجز</h2>
+                    <div class="booking-steps">
+                        <div class="booking-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>املأ نموذج الحجز</h3>
+                                <p>قم بتعبئة النموذج بالبيانات المطلوبة واختر البرنامج المناسب لك</p>
+                            </div>
+                        </div>
+                        <div class="booking-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>اختر طريقة التواصل</h3>
+                                <p>يمكنك إرسال البيانات عبر البريد الإلكتروني أو الواتساب</p>
+                            </div>
+                        </div>
+                        <div class="booking-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>تأكيد الحجز</h3>
+                                <p>سيتم التواصل معك خلال 24 ساعة لتأكيد الحجز وتحديد التفاصيل النهائية</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-benefits">
+                        <h3>مميزات التدريب معنا</h3>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>مدربين محترفين</h4>
+                                <p>تدريب على يد نخبة من المدربين المعتمدين دولياً</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>مجموعات صغيرة</h4>
+                                <p>عدد محدود من المتدربين في كل مجموعة لضمان جودة التدريب</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>متابعة مستمرة</h4>
+                                <p>تقييم دوري لمستوى التقدم وتعديل خطة التدريب وفقاً لذلك</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-swimming-pool"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>مرافق متميزة</h4>
+                                <p>أحواض سباحة مجهزة بأحدث التقنيات ومعايير السلامة</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-note">
+                        <p><strong>ملاحظة:</strong> يرجى الحضور قبل موعد التدريب بـ 15 دقيقة على الأقل. يجب إحضار ملابس السباحة الخاصة بك.</p>
+                    </div>
+                </div>
+                
+                <div class="booking-form">
+                    <h2>نموذج الحجز</h2>
+                    <form id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">الاسم بالكامل *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">رقم الهاتف *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">البريد الإلكتروني *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="age">العمر *</label>
+                                <input type="number" id="age" name="age" min="3" max="99" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="program">البرنامج المطلوب *</label>
+                                <select id="program" name="program" required>
+                                    <option value="">-- اختر البرنامج --</option>
+                                    <option value="مجموعة 8 جلسات">مجموعة - 8 جلسات في الشهر (800 جنيه)</option>
+                                    <option value="مجموعة 12 جلسة">مجموعة - 12 جلسة في الشهر (1000 جنيه)</option>
+                                    <option value="خاص 8 جلسات">خاص - 8 جلسات في الشهر (1200 جنيه)</option>
+                                    <option value="خاص 12 جلسة">خاص - 12 جلسة في الشهر (1500 جنيه)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="location">الموقع المفضل *</label>
+                                <select id="location" name="location" required>
+                                    <option value="">-- اختر الموقع --</option>
+                                    <option value="مدينة نصر">مدينة نصر - مجمع حمام السباحة ستاد القاهرة</option>
+                                    <option value="الزقازيق">الزقازيق</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="time">الوقت المفضل *</label>
+                                <select id="time" name="time" required>
+                                    <option value="">-- اختر الوقت --</option>
+                                    <option value="صباحاً (9-12)">صباحاً (9-12)</option>
+                                    <option value="ظهراً (12-3)">ظهراً (12-3)</option>
+                                    <option value="عصراً (3-6)">عصراً (3-6)</option>
+                                    <option value="مساءً (6-9)">مساءً (6-9)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="level">مستوى الخبرة *</label>
+                                <select id="level" name="level" required>
+                                    <option value="">-- اختر المستوى --</option>
+                                    <option value="مبتدئ">مبتدئ (لا يوجد خبرة سابقة)</option>
+                                    <option value="متوسط">متوسط (بعض الخبرة)</option>
+                                    <option value="متقدم">متقدم (خبرة جيدة)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="notes">ملاحظات إضافية</label>
+                            <textarea id="notes" name="notes" placeholder="أي معلومات إضافية ترغب في إضافتها (اختياري)"></textarea>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" id="emailSubmit" class="btn btn-submit">
+                                <i class="fas fa-envelope"></i> إرسال عبر البريد الإلكتروني
+                            </button>
+                            <button type="button" id="whatsappSubmit" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> إرسال عبر الواتساب
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>لديك استفسارات؟</h2>
+            <p>تواصل معنا مباشرة للإجابة على جميع أسئلتك</p>
+            <div class="cta-buttons">
+                <a href="tel:01553416110" class="btn btn-large btn-call">
+                    <i class="fas fa-phone-alt"></i> اتصل الآن
+                </a>
+                <a href="https://wa.me/201553416110" class="btn btn-large btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> تواصل عبر الواتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Pump Swimming Academy Logo">
+                    <p>نخبة النخبة في مجال السباحة</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/people/PUMP-Swimming-Academy/61550332079679/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/201553416110" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/pump_swim_academy" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="programs.html">برامج السباحة</a></li>
+                        <li><a href="trainers.html">المدربين</a></li>
+                        <li><a href="locations.html">المواقع</a></li>
+                        <li><a href="prices.html">الأسعار</a></li>
+                        <li><a href="gallery.html">معرض الصور</a></li>
+                        <li><a href="posts.html">المنشورات</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>اتصل بنا</h3>
+                    <p>شارع النصر، مدينة نصر، القاهرة</p>
+                    <p>هاتف: <a href="tel:01553416110">01553416110</a></p>
+                    <p>البريد الإلكتروني: <a href="mailto:pumpswimacademy@gmail.com">pumpswimacademy@gmail.com</a></p>
+                    <p>فيسبوك: <a href="https://www.facebook.com/people/PUMP-Swimming-Academy/61550332079679/" target="_blank">PUMP Swimming Academy</a></p>
+                    <p>واتساب: <a href="https://wa.me/201553416110" target="_blank">تواصل عبر الواتساب</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة &copy; 2025 - Pump Swimming Academy</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const bookingForm = document.getElementById('bookingForm');
+            const emailSubmit = document.getElementById('emailSubmit');
+            const whatsappSubmit = document.getElementById('whatsappSubmit');
+            const successMessage = document.getElementById('successMessage');
+            
+            // Email submission
+            if (emailSubmit) {
+                emailSubmit.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Basic form validation
+                    if (!validateForm()) return;
+                    
+                    // Get form values
+                    const formData = getFormData();
+                    
+                    // In a real application, you would send this data to a server
+                    // For now, we'll simulate sending an email
+                    
+                    // Show success message
+                    bookingForm.style.display = 'none';
+                    successMessage.style.display = 'block';
+                    
+                    // Compose email (this would normally be done server-side)
+                    const emailSubject = 'طلب حجز جديد - ' + formData.name;
+                    const emailBody = `
+                        تم استلام طلب حجز جديد:
+                        
+                        الاسم: ${formData.name}
+                        رقم الهاتف: ${formData.phone}
+                        البريد الإلكتروني: ${formData.email}
+                        العمر: ${formData.age}
+                        البرنامج: ${formData.program}
+                        الموقع: ${formData.location}
+                        الوقت المفضل: ${formData.time}
+                        مستوى الخبرة: ${formData.level}
+                        ملاحظات: ${formData.notes || 'لا توجد'}
+                    `;
+                    
+                    // In a real application, this would be sent to the server
+                    console.log('Email would be sent to: pumpswimacademy@gmail.com');
+                    console.log('Subject:', emailSubject);
+                    console.log('Body:', emailBody);
+                    
+                    // Scroll to success message
+                    successMessage.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+            
+            // WhatsApp submission
+            if (whatsappSubmit) {
+                whatsappSubmit.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Basic form validation
+                    if (!validateForm()) return;
+                    
+                    // Get form values
+                    const formData = getFormData();
+                    
+                    // Compose WhatsApp message
+                    const whatsappMessage = `
+طلب حجز جديد:
+
+الاسم: ${formData.name}
+رقم الهاتف: ${formData.phone}
+البريد الإلكتروني: ${formData.email}
+العمر: ${formData.age}
+البرنامج: ${formData.program}
+الموقع: ${formData.location}
+الوقت المفضل: ${formData.time}
+مستوى الخبرة: ${formData.level}
+ملاحظات: ${formData.notes || 'لا توجد'}
+                    `;
+                    
+                    // Encode the message for WhatsApp URL
+                    const encodedMessage = encodeURIComponent(whatsappMessage);
+                    
+                    // Open WhatsApp with pre-filled message
+                    window.open(`https://wa.me/201553416110?text=${encodedMessage}`, '_blank');
+                    
+                    // Show success message
+                    bookingForm.style.display = 'none';
+                    successMessage.style.display = 'block';
+                    
+                    // Scroll to success message
+                    successMessage.scrollIntoView({ behavior: 'smooth' });
+                });
+            }
+            
+            // Form validation function
+            function validateForm() {
+                const name = document.getElementById('name').value;
+                const phone = document.getElementById('phone').value;
+                const email = document.getElementById('email').value;
+                const age = document.getElementById('age').value;
+                const program = document.getElementById('program').value;
+                const location = document.getElementById('location').value;
+                const time = document.getElementById('time').value;
+                const level = document.getElementById('level').value;
+                
+                if (!name || !phone || !email || !age || !program || !location || !time || !level) {
+                    alert('يرجى ملء جميع الحقول المطلوبة');
+                    return false;
+                }
+                
+                return true;
+            }
+            
+            // Get form data function
+            function getFormData() {
+                return {
+                    name: document.getElementById('name').value,
+                    phone: document.getElementById('phone').value,
+                    email: document.getElementById('email').value,
+                    age: document.getElementById('age').value,
+                    program: document.getElementById('program').value,
+                    location: document.getElementById('location').value,
+                    time: document.getElementById('time').value,
+                    level: document.getElementById('level').value,
+                    notes: document.getElementById('notes').value
+                };
+            }
+        });
+    </script>
+</body>
+</html>

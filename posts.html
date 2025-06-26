@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المنشورات - Pump Swimming Academy | أكاديمية بامب للسباحة</title>
+    <meta name="description" content="آخر منشورات ونصائح أكاديمية بامب للسباحة. نصائح احترافية في تقنيات السباحة، التغذية المثالية للسباحين، تمارين لتحسين السرعة، والإحماء والاستشفاء.">
+    <meta name="keywords" content="منشورات سباحة, نصائح سباحة, تقنيات السباحة, تغذية السباحين, تمارين سباحة, pump swimming academy">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qupdtevw.manus.space/posts.html">
+    <meta property="og:title" content="المنشورات - Pump Swimming Academy | أكاديمية بامب للسباحة">
+    <meta property="og:description" content="آخر منشورات ونصائح أكاديمية بامب للسباحة. نصائح احترافية في تقنيات السباحة، التغذية المثالية للسباحين، تمارين لتحسين السرعة، والإحماء والاستشفاء.">
+    <meta property="og:image" content="https://qupdtevw.manus.space/posts/post1_image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://qupdtevw.manus.space/posts.html">
+    <meta property="twitter:title" content="المنشورات - Pump Swimming Academy | أكاديمية بامب للسباحة">
+    <meta property="twitter:description" content="آخر منشورات ونصائح أكاديمية بامب للسباحة. نصائح احترافية في تقنيات السباحة، التغذية المثالية للسباحين، تمارين لتحسين السرعة، والإحماء والاستشفاء.">
+    <meta property="twitter:image" content="https://qupdtevw.manus.space/posts/post1_image.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .posts-page {
+            padding: 50px 0;
+        }
+        .posts-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-top: 30px;
+        }
+        .post-item {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .post-item:hover {
+            transform: translateY(-5px);
+        }
+        .post-image {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+        .post-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .post-item:hover .post-image img {
+            transform: scale(1.05);
+        }
+        .post-content {
+            padding: 25px;
+        }
+        .post-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #003366;
+        }
+        .post-text {
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        .post-hashtags {
+            font-size: 14px;
+            color: #0099cc;
+            margin-top: 15px;
+            line-height: 1.5;
+        }
+        .post-cta {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .post-date {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .post-category {
+            display: inline-block;
+            background-color: #0099cc;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        @media (max-width: 768px) {
+            .post-image {
+                height: 200px;
+            }
+            .post-title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>Welcome to PUMP Swimming Academy - The Elite of Elite in Swimming</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/people/PUMP-Swimming-Academy/61550332079679/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/201553416110" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/pump_swim_academy" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Pump Swimming Academy Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="programs.html">برامج السباحة</a></li>
+                    <li><a href="trainers.html">المدربين</a></li>
+                    <li><a href="locations.html">المواقع</a></li>
+                    <li><a href="prices.html">الأسعار</a></li>
+                    <li><a href="gallery.html">معرض الصور</a></li>
+                    <li><a href="posts.html" class="active">المنشورات</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+                <div class="register-btn">
+                    <a href="booking.html" class="btn">سجل الآن</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>المنشورات</h1>
+            <p>آخر النصائح والمعلومات من أكاديمية بامب للسباحة</p>
+        </div>
+    </section>
+
+    <section class="posts-page">
+        <div class="container">
+            <div class="posts-grid">
+                <!-- البوست السابع: عروض الصيف الحصرية -->
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="post7_image.jpg" alt="عروض الصيف الحصرية">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">عروض</span>
+                        <h2 class="post-title">عروض الصيف الحصرية من Pump Swimming Academy: انطلق نحو التميز!</h2>
+                        <div class="post-date">23 يونيو 2025</div>
+                        <div class="post-text">
+                            <p>☀️ الصيف وصل، ومعاه أحلى عروض السباحة من Pump Swimming Academy! جهزوا نفسكم لموسم مليان نشاط، متعة، وتطور في مهارات السباحة مع باقاتنا الصيفية الخاصة.</p>
+                            
+                            <p><strong>🏊‍♂️ لماذا تختار عروضنا الصيفية؟</strong></p>
+                            <p>• <strong>خصومات حصرية:</strong> استمتع بخصومات رائعة على باقات التدريب الفردي والجماعي</p>
+                            <p>• <strong>برامج مكثفة:</strong> صممت برامجنا الصيفية لتسريع تعلم السباحة وتحسين الأداء في وقت قياسي</p>
+                            <p>• <strong>مدربون محترفون:</strong> تدريب على يد نخبة من أفضل المدربين المؤهلين لجميع المستويات والأعمار</p>
+                            <p>• <strong>مرافق عالمية:</strong> استمتع بالتدريب في مسابحنا المجهزة بأحدث التقنيات في فروعنا المختلفة</p>
+                            
+                            <p><strong>🎯 باقات الصيف تشمل:</strong></p>
+                            <p>باقة المبتدئين الصيفية، باقة تطوير المهارات، باقة السباحة التنافسية، وباقات عائلية بخصومات خاصة!</p>
+                            
+                            <p><strong>⏰ لا تفوت الفرصة!</strong> العروض محدودة ولفترة الصيف فقط. سارع بالحجز الآن وانضم لعائلة Pump Swimming Academy لتحول صيفك إلى مغامرة مائية لا تُنسى! 🏆</p>
+                        </div>
+                        <div class="post-hashtags">
+                            #Pump_Swimming_Academy #نخبه_النخبه #نخبه_في_مجال_السباحه #swim #swimming #عروض_الصيف #خصومات_السباحة #صيف_2025
+                        </div>
+                        <div class="post-cta">
+                            <a href="booking.html" class="btn">سجل الآن</a>
+                            <a href="https://wa.me/201553416110" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البوست السادس: تغذية الأبطال الصغار -->
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="post6_image.jpg" alt="تغذية الأبطال الصغار">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">تغذية</span>
+                        <h2 class="post-title">تغذية الأبطال الصغار: دليل شامل لأطفال السباحة (8-14 سنة)</h2>
+                        <div class="post-date">23 يونيو 2025</div>
+                        <div class="post-text">
+                            <p>🏊‍♀️ لأطفالنا السباحين، التغذية هي وقود الأداء! سواء كان تمرينهم صباحاً أو مساءً، يحتاجون لنظام غذائي يدعم طاقتهم وصحتهم.</p>
+                            
+                            <p><strong>🍽️ قبل التمرين (ساعة ونصف إلى ساعتين):</strong></p>
+                            <p>الهدف: توفير طاقة مستمرة والحفاظ على مستوى السكر في الدم.</p>
+                            <p>• <strong>كربوهيدرات سهلة الهضم:</strong> موز، توست أسمر مع عسل، شوفان</p>
+                            <p>• <strong>بروتين خفيف:</strong> زبادي، بيض مسلوق، جبن قريش</p>
+                            <p>• <strong>سوائل:</strong> الماء أساسي + عصير طبيعي مخفف</p>
+                            
+                            <p><strong>🥛 بعد التمرين (خلال 30-60 دقيقة):</strong></p>
+                            <p>الهدف: تعويض الطاقة، دعم استشفاء العضلات، تعويض السوائل.</p>
+                            <p>• <strong>كربوهيدرات معقدة:</strong> أرز، مكرونة، بطاطس مهروسة</p>
+                            <p>• <strong>بروتين:</strong> دجاج مشوي، سمك، بيض، زبادي يوناني</p>
+                            <p>• <strong>سوائل:</strong> ماء + حليب أو عصير فواكه طبيعي</p>
+                            
+                            <p><strong>💧 نصائح ذهبية من Pump Swimming Academy:</strong></p>
+                            <p>الترطيب المستمر، التنوع في الطعام، والاستماع لإشارات الجسم هي مفاتيح النجاح!</p>
+                            
+                            <p>التغذية السليمة جزء لا يتجزأ من رحلة السباحة الناجحة لأبطالنا الصغار! 🏆</p>
+                        </div>
+                        <div class="post-hashtags">
+                            #Pump_Swimming_Academy #نخبه_النخبه #نخبه_في_مجال_السباحه #swim #swimming #تغذية_السباحين #تغذية_الأطفال #أطفال_رياضيين
+                        </div>
+                        <div class="post-cta">
+                            <a href="booking.html" class="btn">سجل الآن</a>
+                            <a href="https://wa.me/201553416110" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البوست الخامس: أهمية الإحماء قبل السباحة -->
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="post5_image.png" alt="أهمية الإحماء قبل السباحة">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">نصائح تدريبية</span>
+                        <h2 class="post-title">نصيحة تدريبية: أهمية الإحماء قبل السباحة</h2>
+                        <div class="post-date">21 يونيو 2025</div>
+                        <div class="post-text">
+                            <p>🏊‍♂️ الإحماء قبل السباحة ليس مجرد روتين، بل هو خطوة أساسية لضمان أداء أفضل وتجنب الإصابات!</p>
+                            <p>يساعد الإحماء على زيادة تدفق الدم إلى العضلات، مما يجعلها أكثر مرونة واستعداداً للحركة. كما أنه يرفع درجة حرارة الجسم تدريجياً، ويجهز الجهاز العصبي المركزي للنشاط البدني.</p>
+                            <p><strong>نصائح للإحماء الفعال:</strong></p>
+                            <p>1️⃣ <strong>تمارين الإطالة الديناميكية:</strong> قم بحركات دائرية للذراعين والساقين، ودوران للجزع.</p>
+                            <p>2️⃣ <strong>السباحة الخفيفة:</strong> ابدأ بسباحة بطيئة لمدة 5-10 دقائق لتهيئة العضلات والمفاصل.</p>
+                            <p>3️⃣ <strong>التركيز على التنفس:</strong> قم بتمارين تنفس عميقة لزيادة سعة الرئة وتحسين الأكسجين.</p>
+                            <p>في PUMP Swimming Academy، نؤكد على أهمية الإحماء الصحيح كجزء أساسي من برنامج التدريب لضمان أفضل النتائج! 🏆</p>
+                        </div>
+                        <div class="post-hashtags">
+                            #Pump_Swimming_Academy #نخبه_النخبه #نخبه_في_مجال_السباحه #swim #swimming #إحماء_السباحة #نصائح_تدريبية
+                        </div>
+                        <div class="post-cta">
+                            <a href="booking.html" class="btn">سجل الآن</a>
+                            <a href="https://wa.me/201553416110" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البوست الأول: تقنية السباحة الحرة -->
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="posts/post1_image.png" alt="تقنية السباحة الحرة">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">تقنيات السباحة</span>
+                        <h2 class="post-title">تقنية السباحة الحرة</h2>
+                        <div class="post-date">29 مايو 2025</div>
+                        <div class="post-text">
+                            <p>🏊‍♂️ عايز تسبح حر بسرعة وكفاءة؟ الموضوع مش عضلات بس! 💪</p>
+                            <p>الكتف لازم يكون مرتفع والكوع عالي في الهواء.. مش أي كلام! 📏 لما تدخل إيدك في المية، خليها تدخل بزاوية مش بشكل مسطح.. الفرق كبير في السرعة! ⚡</p>
+                            <p>أهم حاجة: التنفس من جنب واحد كل 3 ضربات.. متنساش تلف راسك مش ترفعه! 🔄 والرجلين مش بتتحرك من الركبة.. الحركة كلها من الفخد! 🦵</p>
+                            <p>في PUMP Swimming Academy هنظبطلك التكنيك ده بالظبط.. هتحس بالفرق من أول حصة! 🏆</p>
+                        </div>
+                        <div class="post-hashtags">
+                            #Pump_Swimming_Academy #نخبه_النخبه #نخبه_في_مجال_السباحه #swim #swimming
+                        </div>
+                        <div class="post-cta">
+                            <a href="booking.html" class="btn">سجل الآن</a>
+                            <a href="https://wa.me/201553416110" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البوست الثاني: التغذية المثالية للسباحين -->
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="posts/post2_image.png" alt="التغذية المثالية للسباحين">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">التغذية</span>
+                        <h2 class="post-title">التغذية المثالية للسباحين</h2>
+                        <div class="post-date">28 مايو 2025</div>
+                        <div class="post-text">
+                            <p>🍽️ عارف إن أكلك بيفرق معاك في البول أد إيه؟ 🏊‍♂️</p>
+                            <p>قبل التمرين بساعتين: كربوهيدرات بسيطة زي الموز أو التوست بالعسل.. هتديك طاقة فورية! ⚡</p>
+                            <p>بعد التمرين على طول: بروتين سريع الامتصاص زي الزبادي بالفواكه أو شيك بروتين.. عشان العضلات تتعافى بسرعة! 💪</p>
+                            <p>نصيحة ذهبية: ماتنساش تشرب مية كتير قبل وأثناء وبعد التمرين.. الجفاف هو العدو الأول للسباح! 💧</p>
+                            <p>في PUMP Swimming Academy بنهتم بتغذيتك زي ما بنهتم بتكنيكك.. عشان تبقى بطل مش بس سباح! 🏆</p>
+                        </div>
+                        <div class="post-hashtags">
+                            #Pump_Swimming_Academy #نخبه_النخبه #نخبه_في_مجال_السباحه #swim #swimming
+                        </div>
+                        <div class="post-cta">
+                            <a href="booking.html" class="btn">سجل الآن</a>
+                            <a href="https://wa.me/201553416110" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البوست الثالث: تمارين لتحسين السرعة -->
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="posts/post3_image.png" alt="تمارين لتحسين السرعة">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">تمارين</span>
+                        <h2 class="post-title">تمارين لتحسين السرعة</h2>
+                        <div class="post-date">27 مايو 2025</div>
+                        <div class="post-text">
+                            <p>⚡ عايز تكسر الرقم القياسي بتاعك؟ التمارين دي هتفرق معاك! 🏊‍♂️</p>
+                            <p>تمرين الانطلاقات السريعة: 10 انطلاقات من حافة البول، كل واحدة 15 متر بأقصى سرعة.. راحة 30 ثانية بس بين كل انطلاقة! 🚀</p>
+                            <p>تمرين التناوب: سباحة 25 متر بسرعة عالية، بعدها 25 متر استرخاء.. كرر 8 مرات! 🔄</p>
+                            <p>تمرين القوة: استخدم الزعانف أو لوح السباحة لتقوية عضلات الرجلين.. هتحس بالفرق فوراً! 💪</p>
+                            <p>نصيحة ذهبية: ركز على تكنيك الدوران السريع عند الحائط.. ثواني بتفرق في السباق! ⏱️</p>
+                            <p>في PUMP Swimming Academy هنديك برنامج مخصص لزيادة سرعتك بشكل علمي ومدروس! 📊</p>
+                        </div>
+                        <div class="post-hashtags">
+                            #Pump_Swimming_Academy #نخبه_النخبه #نخبه_في_مجال_السباحه #swim #swimming
+                        </div>
+                        <div class="post-cta">
+                            <a href="booking.html" class="btn">سجل الآن</a>
+                            <a href="https://wa.me/201553416110" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البوست الرابع: الإحماء والاستشفاء -->
+                <div class="post-item">
+                    <div class="post-image">
+                        <img src="posts/post4_image.png" alt="الإحماء والاستشفاء">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">نصائح</span>
+                        <h2 class="post-title">الإحماء والاستشفاء</h2>
+                        <div class="post-date">26 مايو 2025</div>
+                        <div class="post-text">
+                            <p>🔥 الإحماء مش مضيعة وقت.. ده استثمار في صحتك وأدائك! 🏊‍♂️</p>
+                            <p>قبل ما تنزل المية: 5-10 دقايق تمارين خفيفة.. دوران الكتف، تمديد الذراعين والرجلين، وحركات الرقبة! 🔄</p>
+                            <p>أول 5 دقايق في المية: سباحة خفيفة بتكنيك سليم.. مش سرعة! 🐢</p>
+                            <p>بعد التمرين: استشفاء فعال.. سباحة خفيفة 5 دقايق، تمديد العضلات 10 دقايق، وشرب مية كتير! 💧</p>
+                            <p>نصيحة ذهبية: الاستشفاء بالتبريد (ice bath) أو الساونا بيسرع شفاء العضلات ويمنع الإصابات! ❄️🔥</p>
+                            <p>في PUMP Swimming Academy بنعلمك إزاي تحافظ على جسمك زي ما بنعلمك إزاي تسبح.. عشان تفضل في القمة! 🏆</p>
+                        </div>
+                        <div class="post-hashtags">
+                            #Pump_Swimming_Academy #نخبه_النخبه #نخبه_في_مجال_السباحه #swim #swimming
+                        </div>
+                        <div class="post-cta">
+                            <a href="booking.html" class="btn">سجل الآن</a>
+                            <a href="https://wa.me/201553416110" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> تواصل معنا</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>ابدأ رحلتك مع السباحة اليوم!</h2>
+            <p>سجل الآن واحصل على جلسة تقييم مجانية</p>
+            <div class="cta-buttons">
+                <a href="booking.html" class="btn btn-large">سجل الآن</a>
+                <a href="https://wa.me/201553416110" class="btn btn-large btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> تواصل عبر الواتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Pump Swimming Academy Logo">
+                    <p>نخبة النخبة في مجال السباحة</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/people/PUMP-Swimming-Academy/61550332079679/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/201553416110" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/pump_swim_academy" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="programs.html">برامج السباحة</a></li>
+                        <li><a href="trainers.html">المدربين</a></li>
+                        <li><a href="locations.html">المواقع</a></li>
+                        <li><a href="prices.html">الأسعار</a></li>
+                        <li><a href="gallery.html">معرض الصور</a></li>
+                        <li><a href="posts.html">المنشورات</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>اتصل بنا</h3>
+                    <p>شارع النصر، مدينة نصر، القاهرة</p>
+                    <p>هاتف: <a href="tel:01553416110">01553416110</a></p>
+                    <p>البريد الإلكتروني: <a href="mailto:pumpswimacademy@gmail.com">pumpswimacademy@gmail.com</a></p>
+                    <p>فيسبوك: <a href="https://www.facebook.com/people/PUMP-Swimming-Academy/61550332079679/" target="_blank">PUMP Swimming Academy</a></p>
+                    <p>واتساب: <a href="https://wa.me/201553416110" target="_blank">تواصل عبر الواتساب</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pump Swimming Academy. جميع الحقوق محفوظة.</p>
+                <!-- صورة السباحة من Pixabay بواسطة jarmoluk -->
+                <p class="credits">بعض الصور مقدمة من <a href="https://pixabay.com/" target="_blank">Pixabay</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
